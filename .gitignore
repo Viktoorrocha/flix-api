@@ -1,0 +1,33 @@
+# Diretórios do ambiente virtual
+venv/
+.env
+*.env
+
+# Arquivos do banco de dados SQLite
+db.sqlite3
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Arquivos de logs
+*.log
+logs/
+
+# Dependências do Python
+*.egg-info/
+dist/
+build/
+
+# Migrations desnecessárias
+*/migrations/*.pyc
+
+# Arquivos do Django
+staticfiles/
+media/
+*.sqlite3
+
+# IDEs e editores
+.vscode/
+.idea/
+*.swp
